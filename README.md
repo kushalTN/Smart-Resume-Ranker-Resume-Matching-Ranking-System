@@ -30,21 +30,39 @@ bash
 Copy
 Edit
 ├── app.py                   # Streamlit Frontend Application
+
 ├── resume_data.csv          # Sample Resume Dataset
+
 ├── job_description.csv      # Job Descriptions for Matching
+
 ├── resume_jd_match.csv      # Output: Resume & JD Match Scores
+
 ├── utils.py                 # Helper Functions for Preprocessing
+
 ├── requirements.txt         # Project Dependencies
+
 └── README.md                # Project Documentation
+
+
+
 🚀 How to Run the Project
+
 1.cd path/to/smart_resume_ranker
+
 2.python -m venv venv
+
 3..\venv\Scripts\Activate
+
 4.Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
 5.pip install -r requirements.txt
+
 6.python model_training.py
+
 7.D:\smart_resume_ranker\data\resumes
+
 8.streamlit run app.py
+
 
 📊 How it Works
 Upload candidate resumes and job descriptions.
